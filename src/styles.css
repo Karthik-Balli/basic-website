@@ -1,0 +1,95 @@
+/* App.jsx CSS */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+section {
+  padding: 20px;
+}
+
+header {
+  background-color: #282c34;
+  color: white;
+  padding: 0.5vw;
+}
+
+footer {
+    color: #ffffff;
+    background-color: #3f3f3f;
+}
+
+header nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Header CSS*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav {
+  display: flex;
+  gap: 15px;
+}
+
+/* About CSS */
+.about {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+}
+
+/* Skills CSS */
+.skills ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills ul li {
+  width: 10vw;
+  background: #c5c5c5;
+
+  margin: 5px 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Projects CSS */
+.projects .project {
+  background-color: #f1f1f1;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Contact CSS */
+.contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact .social-media a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.contact .social-media a:hover {
+  color: #61dafb;
+}
+
+/* Footer CSS */
+.footer {
+  position: absolute;
+  width: 100%;
+}
